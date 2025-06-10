@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Café Viatela</title>
+    <link
+      rel="shortcut icon"
+      href="https://res.cloudinary.com/dv84nv8y0/image/upload/v1746403520/Cafe%20Viatela/Logo_sjl64u.ico"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playwrite+CO&family=Playwrite+CU&family=Playwrite+US+Trad+Guides&family=Syne:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img src="img/Logo.jpg" alt="Logo Café Viatela" />
+      </div>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#hero">Inicio</a></li>
+          <li><a href="#categorias">Productos</a></li>
+          <li><a href="#milkshakes">Nosotros</a></li>
+          <li><a href="#container-slider">Blog</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="hero">
+        <div class="hero-content">
+          <h1>Café <span>Viatela</span></h1>
+          <h2>Tradición... <span>Calidad...</span> Origen...</h2>
+          <a
+            href="https://wa.me/573164989798?text=Hola%2C%20estoy%20interesado%20en%20comprar"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>Del Huila a Tú Taza</button>
+          </a>
+        </div>
+      </section>
+
+      <section class="categorias section" id="categorias">
+        <h2 id="categorias-h2">Nuestros Productos</h2>
+        <p id="categorias-p">Fragancia/Aroma, Sabor, Acidez y Cuerpo</p>
+        <div class="container">
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="https://res.cloudinary.com/dv84nv8y0/image/upload/v1746586380/Cafe%20Viatela/cafe_con_bolsa_proporcionada_eqzjkm.png"
+                alt="Café en grano"
+              />
+            </div>
+            <div class="card-text">
+              <p class="card-meal-type">Café de Especialidad y Origen</p>
+              <h2 class="card-title">Cafe en Grano</h2>
+              <p class="card-body">
+                Tostión media<br />
+                Malla 16/18
+              </p>
+            </div>
+            <div class="card-price">$30.000</div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="https://res.cloudinary.com/dv84nv8y0/image/upload/v1746587455/Cafe%20Viatela/ChatGPT_Image_6_may_2025_22_10_25_fkjnft.png"
+                alt="Café Molido"
+              />
+            </div>
+            <div class="card-text">
+              <p class="card-meal-type">Café de Especialidad y Origen</p>
+              <h2 class="card-title">Cafe Molido</h2>
+              <p class="card-body">
+                Tostión media más uno<br />Molienda media fina
+              </p>
+            </div>
+            <div class="card-price">$30.000</div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="https://res.cloudinary.com/dv84nv8y0/image/upload/v1745018989/Cafe%20Viatela/Tostion_Alta_Editada_h0frn4.png"
+                alt="Café Molido"
+              />
+            </div>
+            <div class="card-text">
+              <p class="card-meal-type">Café de Especialidad y Origen</p>
+              <h2 class="card-title">Cafe Molido</h2>
+              <p class="card-body">Tostión alta<br />Molienda fina</p>
+            </div>
+            <div class="card-price">$25.000</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="milkshakes section" id="milkshakes">
+        <h2>Nuestra Historia</h2>
+        <div>
+          <div class="milkshakes-body">
+            <p>
+              En lo más profundo de las fértiles y majestuosas montañas del
+              Departamento del Huila, nace nuestra pasión por el café. Somos una
+              familia emprendedora por naturaleza, orgullosamente cafetera en
+              tercera generación, que ha heredado no solo el amor por la tierra,
+              sino también el compromiso con la calidad. <br /><br />Cultivamos
+              con dedicación las variedades Castillo y Colombia, bajo la sombra
+              protectora de especies naturales conservadas, respetando cada
+              etapa del proceso para entregar lo mejor de nuestro producto: Un
+              café de especialidad y origen que despierta sus sentidos.
+              <br /><br />Te invitamos a dejarte cautivar por su:
+              Fragancia/Aroma, Sabor, Acidez y Cuerpo.
+            </p>
+            <img
+              src="https://res.cloudinary.com/dv84nv8y0/image/upload/v1746584552/Cafe%20Viatela/Nosotros_1_wiyypb.jpg"
+              alt="Finca Cafetera de los Viatelas"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="container-slider">
+        <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"
+          ><i class="fas fa-chevron-circle-left"></i
+        ></a>
+        <a href="javascript: fntExecuteSlide('next');" class="arrowNext"
+          ><i class="fas fa-chevron-circle-right"></i
+        ></a>
+        <!--<ul class="listslider">
+          <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+          <li><a itlist="itList_1" href="#"></a></li>
+          <li><a itlist="itList_2" href="#"></a></li>
+        </ul>-->
+        <ul id="slider">
+          <li
+            style="
+              background-image: url('https://res.cloudinary.com/dv84nv8y0/image/upload/v1746315629/Cafe%20Viatela/daniel-lincoln-ZpoR_dpHX4Q-unsplash_gsniaz.jpg');
+              z-index: 0;
+              opacity: 1;
+            "
+          >
+            <div class="content_slider">
+              <div>
+                <h2>
+                  Cómo preparar el café perfecto en casa: guía para
+                  principiantes
+                </h2>
+                <p>
+                  ¿Molido o en grano? ¿Tostión media o alta? Con nuestras tres
+                  presentaciones puedes experimentar en casa y descubrir tu
+                  método favorito. Te recomendamos probar la molienda media fina
+                  con cafetera italiana o prensa francesa, y la molienda fina
+                  para métodos filtrados. Disfruta del aroma y sabor que solo un
+                  café de origen puede ofrecer.
+                </p>
+                <a
+                  href="https://wa.me/573164989798?text=Hola%2C%20estoy%20interesado%20en%20comprar"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btnSlider"
+                  >Realiza tu pedido</a
+                >
+              </div>
+            </div>
+          </li>
+          <li
+            style="
+              background-image: url('https://res.cloudinary.com/dv84nv8y0/image/upload/v1746315529/Cafe%20Viatela/nameless-3791-PXFTj-2IjbQ-unsplash_la6dpt.jpg');
+            "
+          >
+            <div class="content_slider">
+              <div>
+                <h2>
+                  ¿Qué es el café de especialidad y cómo se diferencia del
+                  comercial?
+                </h2>
+                <p>
+                  El café de especialidad como el nuestro se cultiva en
+                  condiciones óptimas, con variedades seleccionadas y un proceso
+                  cuidado desde la siembra hasta el tostado.
+                </p>
+                <a
+                  href="https://wa.me/573164989798?text=Hola%2C%20estoy%20interesado%20en%20comprar"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btnSlider"
+                  >Realiza tu pedido</a
+                >
+              </div>
+            </div>
+          </li>
+          <li
+            style="
+              background-image: url('https://res.cloudinary.com/dv84nv8y0/image/upload/v1746301864/Cafe%20Viatela/Tostion_Alta_3_16_9_k5ibzc.jpg');
+            "
+          >
+            <div class="content_slider">
+              <div>
+                <h2>
+                  Comercio justo: el valor de pagar un precio digno por un gran
+                  café
+                </h2>
+                <p>
+                  Cada compra de Café Viatela apoya directamente a una familia
+                  cafetera que trabaja con honestidad y compromiso. Nuestro
+                  objetivo es que cada cliente no solo reciba un producto de
+                  alta calidad, sino que también forme parte de una red que
+                  valora el trabajo justo, la tradición y el respeto por el
+                  origen.
+                </p>
+                <a
+                  href="https://wa.me/573164989798?text=Hola%2C%20estoy%20interesado%20en%20comprar"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btnSlider"
+                  >Realiza tu pedido</a
+                >
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer" id="contacto">
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h4>Sobre Nosotros</h4>
+          <p>
+            Café de tradición familiar desde las montañas del Huila.<br />
+            con pasión, bajo sombra natural, para ofrecer un café<br />
+            de especialidad que despierta los sentidos.
+          </p>
+        </div>
+
+        <div class="footer-column-ws">
+          <h4>Realiza tus pedidos</h4>
+          <a
+            href="https://wa.me/573164989798?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n%20de%20tus%20productos"
+            target="_blank"
+            style="
+              bottom: 20px;
+              right: 20px;
+              background-color: #25d366;
+              color: white;
+              border-radius: 50%;
+              width: 60px;
+              height: 60px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+              z-index: 1000;
+            "
+          >
+            <i class="fab fa-whatsapp" style="font-size: 30px"></i>
+          </a>
+        </div>
+      </div>
+      <p class="copyright">
+        &copy; 2025 Café Viatela. Todos los derechos reservados.
+      </p>
+    </footer>
+    <script src="js/script.js">
+      const toggle = document.getElementById("menu-toggle");
+            const navList = document.querySelector(".nav-list");
+
+            toggle.addEventListener("click", () => {
+              navList.classList.toggle("active");
+            });
+    </script>
+  </body>
+</html>
